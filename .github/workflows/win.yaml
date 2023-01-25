@@ -4,7 +4,7 @@ on:
     types: started
 jobs:
   build:
-    runs-on: windows-lasted
+    runs-on: windows-2019
     steps:
     - name: Test background
       uses: NyaMisty/reverse-rdp-windows-github-actions-ng@master
